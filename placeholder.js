@@ -1,3 +1,9 @@
+/*
+	Placeholder v1
+	Copyright by Leonard Lamprecht - https://github.com/leo/placeholder
+	License: http://opensource.org/licenses/mit-license.php
+*/
+
 window.onload = function() {
 
 	if( window.navigator.userAgent.indexOf ('MSIE ') > 0 ) {
