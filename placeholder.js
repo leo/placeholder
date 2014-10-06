@@ -1,5 +1,5 @@
 /*
-	Placeholder v1
+	Placeholder 2
 	Copyright by Leonard Lamprecht - https://github.com/leo/placeholder
 	License: http://opensource.org/licenses/mit-license.php
 */
@@ -8,9 +8,7 @@ window.onload = function() {
 
 	if( window.navigator.userAgent.indexOf('MSIE ') > 0 ) {
 
-		var mainSlug = 'placeholder';
-		var dataSlug = 'data-' + mainSlug;
-
+		var mainSlug = 'placeholder', dataSlug = 'data-' + mainSlug;
 		var items = document.querySelectorAll( '[' + mainSlug + ']' );
 
 		for ( var i = 0; i < items.length; i++ ) {
@@ -51,11 +49,10 @@ window.onload = function() {
 
 			item.onfocus = function() {
 
-				var ph = this.getAttribute( dataSlug );
-				var cl = this.className;
+				var ph = this.getAttribute( dataSlug ), cl = this.className;
 
 				if ( cl.indexOf( ' ' ) > -1 ) {
-					this.className = cl.replace( mainSlug + '-on', '' );
+					var cl = cl.replace( mainSlug + '-on', '' );
 				} else {
 					this.removeAttribute( 'class' );
 				}
@@ -83,10 +80,8 @@ window.onload = function() {
 
 					for( var i = 0; i < inputs.length; i++ ) {
 
-						var that = inputs[i];
-
-						if( that.value == that.getAttribute( dataSlug ) ) {
-							that.value = '';
+						if( inputs[i].value == inputs[i].getAttribute( dataSlug ) ) {
+							inputs[i].value = '';
 						}
 
 					}
