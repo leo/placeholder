@@ -6,7 +6,7 @@
 
 window.onload = function() {
 
-	if( window.navigator.userAgent.indexOf('MSIE ') > 0 ) {
+	if( window.navigator.userAgent.indexOf('MSIE') > 0 ) {
 
 		var mainSlug = 'placeholder', dataSlug = 'data-' + mainSlug;
 		var items = document.querySelectorAll( '[' + mainSlug + ']' );
