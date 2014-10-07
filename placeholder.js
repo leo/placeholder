@@ -1,7 +1,7 @@
 /*
-	Placeholder 2
-	Copyright by Leonard Lamprecht - https://github.com/leo/placeholder
-	License: http://opensource.org/licenses/mit-license.php
+	Placeholder 2 - Use input-placeholders in old IEs.
+	Copyright by Leonard Lamprecht - //github.com/leo/placeholder
+	License: http://git.io/JU8WEA
 */
 
 window.onload = function() {
