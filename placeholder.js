@@ -1,4 +1,4 @@
-/* Placeholder 2 by @leo */
+/* placeholder 2 by @leo */
 
 window.onload = function() {
 
