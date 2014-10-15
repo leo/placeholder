@@ -1,8 +1,4 @@
-/*
-	Placeholder 2 - Use input-placeholders in old IEs.
-	Copyright by Leonard Lamprecht - //github.com/leo/placeholder
-	License: http://git.io/JU8WEA
-*/
+/* Placeholder 2 by @leo */
 
 window.onload = function() {
 
